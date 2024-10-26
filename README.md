@@ -1,5 +1,12 @@
-# ConversionDataType
+# Data Type Inference App
+This project is a web application that allows users to upload CSV or Excel files and automatically infer the data types contained within them. Built with Django for the backend and React for the frontend, the application provides a seamless user experience for data analysis and visualization.
 
+Features
+Upload CSV or Excel files to analyze data types.
+Built with a Django backend for robust data handling.
+React frontend for a responsive and interactive user interface.
+
+# Requirements
 Clone the repository to you local machine using the command: 
 git clone https://github.com/AishwaryaSimhaPraveen/ConversionDataType.git
 
@@ -22,7 +29,7 @@ pip install django-cors-headers
 Axios: A promise-based HTTP client for the browser and Node.js. It can be installed via npm:
 npm install axios
 
-Backend-Setup
+# Backend-Setup
 Follow these steps to set up the backend for your project:
 Activate the Virtual Environment:
 Navigate to your project directory and activate the virtual environment you created:
@@ -41,7 +48,7 @@ Finally, start the Django development server with the following command:
 python manage.py runserver
 By default, the server will be accessible at http://127.0.0.1:8000/
 
-Frontend-Setup
+# Frontend-Setup
 Follow these steps to set up the frontend for your project:
 Navigate to the Frontend Directory:
 Change to the directory where your frontend code is located:
