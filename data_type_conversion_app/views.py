@@ -17,7 +17,7 @@ def handle_file_upload(request):
         file = request.FILES['file']
 
         try:
-            result = infer_data_types(file)  # Call your data type inference function
+            result = infer_data_types(file)  
 
             # Save the processed data to the database
             for item in result:  # item should be dict with column_name and inferred_data_type
