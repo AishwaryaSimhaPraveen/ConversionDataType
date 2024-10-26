@@ -77,6 +77,4 @@ def infer_data_types(file):
         print(f"Error processing file: {e}")
         return []
 
-# Example usage:
-# with open('your_file.csv', 'rb') as file:
-#     result = infer_data_types(file)
+
